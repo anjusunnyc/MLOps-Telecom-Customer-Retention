@@ -1,0 +1,9 @@
+.env
+.DS_Store
+logs/
+test_*
+__pycache__
+instant*.json
+artifacts/
+*.egg-info/
+*workspace
