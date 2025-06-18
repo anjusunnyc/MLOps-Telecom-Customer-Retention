@@ -1,5 +1,5 @@
 data_ingestion:
-  bucket_name : "mlops_telecom_customer_churn"
-  bucket_file_name : "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+  file_url: "https://storage.googleapis.com/mlops_telecom_customer_churn/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+  file_name: "WA_Fn-UseC_-Telco-Customer-Churn.csv"
   
 
