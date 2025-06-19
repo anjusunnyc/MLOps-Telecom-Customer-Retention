@@ -1,5 +1,37 @@
 data_ingestion:
   bucket_name : "mlops_telecom_customer_churn"
   bucket_file_name : "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+  file_url: "https://storage.googleapis.com/mlops_telecom_customer_churn/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+  file_name: "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+  raw_data_path: artifacts/raw_data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+  test_size : 0.3
+  val_size : 0.2
+
+data_processing:
+  categorical_columns:
+    - gender
+    - SeniorCitizen
+    - Partner
+    - Dependents
+    - PhoneService
+    - MultipleLines
+    - InternetService
+    - OnlineSecurity
+    - OnlineBackup
+    - DeviceProtection
+    - TechSupport
+    - StreamingTV
+    - StreamingMovies
+    - Contract
+    - PaperlessBilling
+    - PaymentMethod
+  numerical_columns:
+    - tenure
+    - MonthlyCharges
+    - TotalCharges
+  no_of_features : 10  
+    
+  
+
   
 
